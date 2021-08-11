@@ -1,0 +1,64 @@
+split:
+
+String[] sp = x.split(" ");
+
+string to int:
+
+        int a1=Integer.parseInt(sp[0]);
+        int a2=Integer.parseInt(sp[1]);
+        
+        //where is sp[0] [1] first second etc "word" in single (not splitted) string
+        
+double to int:        
+        
+        double s = Math.pow(x,2); int ss = (int) s;
+        double c = Math.pow(x,3); int cc = (int) c;
+        
+    or
+    
+    int ss = (int) Math.pow(x,2);
+    int cc = (int) Math.pow(x,3);
+    
+int to string:
+
+    int i = 10;
+    String s=String.valueOf(i);
+    
+string to double:
+
+    double a1 = Double.parseDouble(sp[0]);
+    
+    
+ System.out.print((a > b && a > c)? a: (b > a && b > c)? b: c);
+ System.out.printf("Сложение: %s + %s = %s\nВычитание: %s - %s = %s", q, w, qw1, q, w, qw2);
+
+
+System.out.printf("%.0f"+" "+"%.0f"+" "+"%.0f"+" "+"%.0f",Math.pow(n,2),Math.pow(n,3),Math.pow(n,4),Math.pow(n,5));
+
+
+System.out.print(j + (j != i ? " " : "\n") );
+
+
+
+        int num = Math.abs(sc.nextInt()),
+            x = sc.nextInt();
+
+
+int a =sc.nextLine().length();
+
+
+ String[] letters = new String[] 
+ {"Одна буква", "Две буквы", "Три буквы", "Четыре буквы", "Пять букв", "Длинное слово"};
+letters[0] letters [1] ...
+
+
+
+
+int num = new Scanner(System.in).nextInt();
+
+for (int j=1; j <= i && num > 0; j++, --num) 
+
+   int[] a = new int[scanner.nextInt()];
+
+
+String[] str = new Scanner(System.in).nextLine().split(",");
